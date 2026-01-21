@@ -20,8 +20,6 @@ This part uses the ocean temperature data.  This data is a subset of the [oceano
 You can find the data in [this](https://github.com/rhodes-byu/stat-486/tree/main/data/OceanicFisheries) repository.
 The goal is to predict the water temperature (T_degC) 
 
-# TODO: Update data link; clone repo and get data
-
 ### 1. Prepare the data
 * (a) For parts, (1) - (5), use only the numerical features to predict 'T_deg_C' (that is, exclude 'Wea', 'Cloud_Typ', 'Cloud_Amt', and 'Visibility'). 
 * (b) Make a training and a test set using `train_test_split`.  Use `random_state=307` and the default test size (25% of the data). 
