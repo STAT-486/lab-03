@@ -61,7 +61,7 @@ betas = pipe.named_steps['model'].coef_
 ``` 
 will extract the coefficients of the linear regression into the variable `betas` and 
 ```
-features = pipe.named_steps['impute'].get_feature_names_out()
+features = pipe.named_steps['poly'].get_feature_names_out()
 ```
 will return the names of the features.  For more complex pipelines, different steps of the pipeline might return different feature names, depending on the action of the step.  
 
